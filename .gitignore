@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db
+
+# Local input data and large objects
+data/raw/
+data/cache/
+data/public_datasets/
+external/
+*.h5ad
+*.h5
+*.rds
+*.RDS
+*.rda
+*.RData
+*.fastq
+*.fq
+*.bam
+*.sam
+*.gz
+
+# Regenerated outputs
+results/*
+!results/README.md
+
+# Local scratch and process files
+tmp_*
+temp_*
+scratch_*
+logs/
+process_logs/
+internal_notes/
+*.log
+

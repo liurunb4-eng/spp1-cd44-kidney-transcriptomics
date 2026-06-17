@@ -1,0 +1,17 @@
+﻿R 4.5.2
+
+CRAN/Bioconductor packages used by the deposited scripts:
+AnnotationDbi
+dplyr # tested: 1.2.0
+GEOquery # tested: 2.78.0
+ggplot2 # tested: 4.0.2
+hdf5r
+liana # tested: 0.1.14
+Matrix # tested: 1.7.4
+org.Hs.eg.db
+readr # tested: 2.2.0
+SingleCellExperiment # tested: 1.32.0
+sparseMatrixStats # tested: 1.22.0
+tibble # tested: 3.3.1
+tidyr # tested: 1.3.2
+

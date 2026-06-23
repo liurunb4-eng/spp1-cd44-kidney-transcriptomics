@@ -68,4 +68,10 @@ NicheNet outputs should be interpreted as receiver-context support and target-se
 
 Purpose: summarize bounded human sc/snRNA compartment-level support from processed GSE131882, GSE195460 and GSE211785 results. This layer is intended as corroboration and boundary assessment, not as a second full single-cell discovery analysis or a ligand-receptor validation.
 
+## 8. Tubular-State Marker Overlap Check
+
+- `74_TubularStateMarkerOverlap.R`
+
+Purpose: test whether the pre-specified rat DTL-associated injured-tubular marker panel overlaps compact published human failed-repair or inflammatory tubular marker panels. This is a supplementary state-context check, not a new network analysis or causal validation.
+
 

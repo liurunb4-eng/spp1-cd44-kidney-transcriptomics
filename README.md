@@ -18,6 +18,7 @@ The repository supports the reported secondary analyses of public datasets, incl
 - human cohort endpoint analyses using eGFR and DKD tubule comparisons;
 - supplementary NicheNet receiver-target program projection, matched random gene-set control and compartment specificity checks;
 - bounded human sc/snRNA compartment-level corroboration summaries.
+- bounded tubular injury / failed-repair marker-panel overlap checks for cross-species state-context assessment.
 
 The analyses are designed for transcriptomic nomination and contextualization. They do not establish protein-level ligand secretion, receptor activation, spatial contact, downstream signaling, or causal function.
 
@@ -61,6 +62,7 @@ The scripts retain the original project numbering. They should be run from the r
 7. Human cohort analyses: scripts `63`, `67`, `68`.
 8. NicheNet supplementary receiver-target analyses: scripts `68`, `70`, `71`, `72` with the longer NicheNet filenames.
 9. Human sc/snRNA compartment-level corroboration summary: script `73`.
+10. Tubular-state marker overlap check: script `74`.
 
 See `docs/run_order.md` for a more detailed script map.
 

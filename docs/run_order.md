@@ -56,9 +56,16 @@ Purpose: evaluate the SPP1/CD44-related program against human eGFR metadata and 
 - `68_GSE233078_NicheNetLigandTarget.R`
 - `70_Human_NicheNet_TargetSetValidation.R`
 - `71_NicheNet_SupplementarySpecificity.R`
+- `72_NicheNet_TargetSetRandomControl.R`
 
-Purpose: generate the supplementary NicheNet receiver-target layer, human target-set projection and GSE30122 tubular-versus-glomerular specificity check.
+Purpose: generate the supplementary NicheNet receiver-target layer, human target-set projection, GSE30122 tubular-versus-glomerular specificity check and expression-matched random gene-set control.
 
 NicheNet outputs should be interpreted as receiver-context support and target-set projection, not as functional validation of SPP1/CD44 signaling.
+
+## 7. Human sc/snRNA Compartment-Level Corroboration
+
+- `73_HumanScSnRNACompartmentCorroboration.R`
+
+Purpose: summarize bounded human sc/snRNA compartment-level support from processed GSE131882, GSE195460 and GSE211785 results. This layer is intended as corroboration and boundary assessment, not as a second full single-cell discovery analysis or a ligand-receptor validation.
 
 

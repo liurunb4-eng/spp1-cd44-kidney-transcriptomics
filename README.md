@@ -16,7 +16,8 @@ The repository supports the reported secondary analyses of public datasets, incl
 - permutation and multi-method robustness checks;
 - state-shift and graph-based transcriptional distance analyses;
 - human cohort endpoint analyses using eGFR and DKD tubule comparisons;
-- supplementary NicheNet receiver-target program projection and compartment specificity checks.
+- supplementary NicheNet receiver-target program projection, matched random gene-set control and compartment specificity checks;
+- bounded human sc/snRNA compartment-level corroboration summaries.
 
 The analyses are designed for transcriptomic nomination and contextualization. They do not establish protein-level ligand secretion, receptor activation, spatial contact, downstream signaling, or causal function.
 
@@ -31,6 +32,7 @@ Raw or processed input files should be downloaded from the original public repos
 | GSE233078 | Rat ZSF1 kidney single-cell RNA-seq discovery dataset |
 | GSE175759 | Human tubulointerstitial RNA-seq cohort with eGFR metadata |
 | GSE30122 | Human diabetic kidney disease tubule and glomerular microarray dataset |
+| GSE131882/GSE195460/GSE211785 | Human kidney sc/snRNA or atlas-derived compartment summaries used for bounded corroboration |
 
 Large expression matrices and raw data objects are not included in this repository.
 
@@ -57,7 +59,8 @@ The scripts retain the original project numbering. They should be run from the r
 5. Bulk signature projection and Spp1-Cd44 robustness checks: scripts `57`, `58`, `61`.
 6. Focused LIANA validation: script `62`.
 7. Human cohort analyses: scripts `63`, `67`, `68`.
-8. NicheNet supplementary receiver-target analyses: scripts `68`, `70`, `71` with the longer NicheNet filenames.
+8. NicheNet supplementary receiver-target analyses: scripts `68`, `70`, `71`, `72` with the longer NicheNet filenames.
+9. Human sc/snRNA compartment-level corroboration summary: script `73`.
 
 See `docs/run_order.md` for a more detailed script map.
 

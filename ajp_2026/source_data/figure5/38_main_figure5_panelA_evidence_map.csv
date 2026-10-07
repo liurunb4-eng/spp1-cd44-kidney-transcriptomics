@@ -1,0 +1,4 @@
+﻿evidence_tier,datasets,source_table,supported_statement,claim_boundary
+Tubular state ordering,GSE131882 scRNA; GSE195460 snRNA,10_tubular_injury_trajectory_stats/bin_summary,"PT/PT-like marker-defined injury coordinates carry SPP1, HAVCR1 and VCAM1 information.","This is a marker-defined injury coordinate, not lineage pseudotime or causality."
+Immune CD44 context,GSE131882 scRNA; GSE211785 immune/myeloid subsets,09_human_validation_summary_source_data,CD44-positive immune/myeloid remodeling is present but subset dependent.,This does not establish direct SPP1-CD44 ligand-receptor signaling.
+Weak / limited signals,Current cell-level marker tables,10_tubular_injury_trajectory_stats; 09 source data,LCN2 is weak at cell level; CLU is retained as a bulk-level driver but absent from current cell-level marker tables.,Do not use single-cell data as CLU source validation without raw-matrix reprocessing.

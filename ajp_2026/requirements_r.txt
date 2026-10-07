@@ -1,0 +1,3 @@
+R 4.5.2
+
+The AJP-specific deposited scripts are Python scripts. This file records the R version used in the wider project because the repository also retains earlier R-based analyses.

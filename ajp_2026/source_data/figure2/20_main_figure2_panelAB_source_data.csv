@@ -1,0 +1,175 @@
+﻿dataset,sample_id,signature,score,title,diagnosis,egfr_ckd_epi,technical_outlier,tissue,supplementary_file,usable,disease_group,egfr_tertile,egfr_60_group,signature_label,plot_group
+GSE175759,GSM5345902,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.3294905867142416,IgAN_sample1,IgAN,76.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345902/suppl/GSM5345902_sample1.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345903,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.2789179781366586,IgAN_sample2,IgAN,68.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345903/suppl/GSM5345903_sample2.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345904,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.0196560623779254,IgAN_sample3,IgAN,70.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345904/suppl/GSM5345904_sample3.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345905,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.0531581546344262,IgAN_sample4,IgAN,46.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345905/suppl/GSM5345905_sample4.txt.gz,True,CKD,Low eGFR,eGFR <60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345906,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.0874642860940693,IgAN_sample5,IgAN,63.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345906/suppl/GSM5345906_sample5.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345907,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.3468224764939972,IgAN_sample6,IgAN,114.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345907/suppl/GSM5345907_sample6.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345908,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.2996240811238421,IgAN_sample7,IgAN,77.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345908/suppl/GSM5345908_sample7.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345909,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.9577605611660234,IgAN_sample8,IgAN,81.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345909/suppl/GSM5345909_sample8.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345910,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.2637789241941973,IgAN_sample9,IgAN,70.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345910/suppl/GSM5345910_sample9.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345912,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.4613228723957382,IgAN_sample11,IgAN,67.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345912/suppl/GSM5345912_sample11.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345913,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.3372961990930166,IgAN_sample12,IgAN,77.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345913/suppl/GSM5345913_sample12.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345914,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.1427704861397552,IgAN_sample13,IgAN,64.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345914/suppl/GSM5345914_sample13.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345915,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.074983293292234,IgAN_sample14,IgAN,74.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345915/suppl/GSM5345915_sample14.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345916,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.6921256572503969,IgAN_sample15,IgAN,68.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345916/suppl/GSM5345916_sample15.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345917,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.6887987879080405,IgAN_sample16,IgAN,104.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345917/suppl/GSM5345917_sample16.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345918,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.2402715268007932,IgAN_sample17,IgAN,85.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345918/suppl/GSM5345918_sample17.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345920,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.6243984204499712,IgAN_sample19,IgAN,76.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345920/suppl/GSM5345920_sample19.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345922,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.2058238319291819,IgAN_sample21,IgAN,75.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345922/suppl/GSM5345922_sample21.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345923,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.4505834432891866,IgAN_sample22,IgAN,104.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345923/suppl/GSM5345923_sample22.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345924,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.8744336676559474,IgAN_sample23,IgAN,84.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345924/suppl/GSM5345924_sample23.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345925,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.1222900813998788,IgAN_sample24,IgAN,101.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345925/suppl/GSM5345925_sample24.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345926,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.2334883002319888,IgAN_sample25,IgAN,128.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345926/suppl/GSM5345926_sample25.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345927,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.5806439335868998,IgAN_sample26,IgAN,60.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345927/suppl/GSM5345927_sample26.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345928,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.3115992057056196,IgAN_sample27,IgAN,112.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345928/suppl/GSM5345928_sample27.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345929,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.5611846201092576,IgAN_sample28,IgAN,74.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345929/suppl/GSM5345929_sample28.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345930,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.2511979763590804,IgAN_sample29,IgAN,88.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345930/suppl/GSM5345930_sample29.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345931,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.1823361167984142,IgAN_sample30,IgAN,100.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345931/suppl/GSM5345931_sample30.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345932,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.4264104731611022,IgAN_sample31,IgAN,97.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345932/suppl/GSM5345932_sample31.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345933,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.5557403064415156,IgAN_sample32,IgAN,81.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345933/suppl/GSM5345933_sample32.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345934,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.1654537579641525,IgAN_sample33,IgAN,93.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345934/suppl/GSM5345934_sample33.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345935,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.4074326823494621,IgAN_sample34,IgAN,89.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345935/suppl/GSM5345935_sample34.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345936,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.8664221641365722,IgAN_sample35,IgAN,118.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345936/suppl/GSM5345936_sample35.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345937,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.217036511186779,IgAN_sample36,IgAN,124.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345937/suppl/GSM5345937_sample36.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345938,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.2292137356002837,IgAN_sample37,IgAN,102.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345938/suppl/GSM5345938_sample37.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345939,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.6031806853163378,IgAN_sample38,IgAN,102.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345939/suppl/GSM5345939_sample38.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345940,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.3937481122982683,IgAN_sample39,IgAN,88.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345940/suppl/GSM5345940_sample39.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345941,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.1087862384635809,IgAN_sample40,IgAN,106.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345941/suppl/GSM5345941_sample40.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345942,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.4326353087208128,IgAN_sample41,IgAN,104.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345942/suppl/GSM5345942_sample41.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345943,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.0989424657144718,IgAN_sample42,IgAN,114.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345943/suppl/GSM5345943_sample42.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345944,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.439973365505207,IgAN_sample43,IgAN,133.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345944/suppl/GSM5345944_sample43.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345945,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.4501973633485719,IgAN_sample44,IgAN,120.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345945/suppl/GSM5345945_sample44.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345946,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.064783048331889,IgAN_sample45,IgAN,132.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345946/suppl/GSM5345946_sample45.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345947,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.9987395920860724,IgAN_sample46,IgAN,109.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345947/suppl/GSM5345947_sample46.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345948,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.1187596071430199,Control_sample47,Control,60.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345948/suppl/GSM5345948_sample47.txt.gz,True,Control,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345949,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.3310390056968219,Control_sample48,Control,109.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345949/suppl/GSM5345949_sample48.txt.gz,True,Control,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345950,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.020096121557963,Control_sample49,Control,113.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345950/suppl/GSM5345950_sample49.txt.gz,True,Control,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345951,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.454665566186525,Control_sample50,Control,76.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345951/suppl/GSM5345951_sample50.txt.gz,True,Control,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345952,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.9607926485639444,Control_sample51,Control,86.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345952/suppl/GSM5345952_sample51.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345953,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.2559930948547289,Control_sample52,Control,83.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345953/suppl/GSM5345953_sample52.txt.gz,True,Control,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345954,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.8747763106906261,Control_sample53,Control,97.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345954/suppl/GSM5345954_sample53.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345955,candidate_DKD_TI_remodeling_no_SPP1_CD44,-1.3734983860701866,Control_sample54,Control,105.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345955/suppl/GSM5345955_sample54.txt.gz,True,Control,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345956,candidate_DKD_TI_remodeling_no_SPP1_CD44,-1.184499382345778,Control_sample55,Control,93.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345956/suppl/GSM5345956_sample55.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345957,candidate_DKD_TI_remodeling_no_SPP1_CD44,-1.8479837199207647,Control_sample56,Control,102.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345957/suppl/GSM5345957_sample56.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345958,candidate_DKD_TI_remodeling_no_SPP1_CD44,-1.502104108685996,Control_sample57,Control,101.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345958/suppl/GSM5345958_sample57.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345959,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.7402039009490442,Control_sample58,Control,95.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345959/suppl/GSM5345959_sample58.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345960,candidate_DKD_TI_remodeling_no_SPP1_CD44,-1.6335189437862363,Control_sample59,Control,109.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345960/suppl/GSM5345960_sample59.txt.gz,True,Control,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345961,candidate_DKD_TI_remodeling_no_SPP1_CD44,-1.40811876598025,Control_sample60,Control,95.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345961/suppl/GSM5345961_sample60.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345962,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.9199775384063064,Control_sample61,Control,123.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345962/suppl/GSM5345962_sample61.txt.gz,True,Control,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345963,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.1030564495586517,Control_sample62,Control,102.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345963/suppl/GSM5345963_sample62.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345964,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.784973295917722,Control_sample63,Control,111.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345964/suppl/GSM5345964_sample63.txt.gz,True,Control,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345965,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.6095085298631551,Control_sample64,Control,85.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345965/suppl/GSM5345965_sample64.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345966,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.595839208534642,Control_sample65,Control,87.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345966/suppl/GSM5345966_sample65.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345967,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.9394646524026568,Control_sample66,Control,97.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345967/suppl/GSM5345967_sample66.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345968,candidate_DKD_TI_remodeling_no_SPP1_CD44,-2.00035288211075,Control_sample67,Control,90.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345968/suppl/GSM5345968_sample67.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345969,candidate_DKD_TI_remodeling_no_SPP1_CD44,-1.451172562633535,Control_sample68,Control,85.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345969/suppl/GSM5345969_sample68.txt.gz,True,Control,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",Control
+GSE175759,GSM5345970,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.9876241364957836,Diabetic nephropathy_sample69,Diabetic nephropathy,57.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345970/suppl/GSM5345970_sample69.txt.gz,True,CKD,Low eGFR,eGFR <60,"10-gene injury-dominant
+DKD/TI candidate",DN
+GSE175759,GSM5345971,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.0044876208987257,Diabetic nephropathy_sample70,Diabetic nephropathy,84.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345971/suppl/GSM5345971_sample70.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",DN
+GSE175759,GSM5345972,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.0961801214670408,Diabetic nephropathy_sample71,Diabetic nephropathy,99.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345972/suppl/GSM5345972_sample71.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",DN
+GSE175759,GSM5345973,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.9667863413140658,FSGS_sample72,FSGS,120.0,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345973/suppl/GSM5345973_sample72.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345974,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.726250642372001,FSGS_sample73,FSGS,40.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345974/suppl/GSM5345974_sample73.txt.gz,True,CKD,Low eGFR,eGFR <60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345975,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.1675254043174685,FSGS_sample74,FSGS,81.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345975/suppl/GSM5345975_sample74.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345976,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.4923429680004625,Lupus nephritis_sample75,Lupus nephritis,139.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345976/suppl/GSM5345976_sample75.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345977,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.066528468555496,Lupus nephritis_sample76,Lupus nephritis,126.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345977/suppl/GSM5345977_sample76.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345978,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.024966169632711,Lupus nephritis_sample77,Lupus nephritis,126.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345978/suppl/GSM5345978_sample77.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345979,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.6957597092092674,Membranous nephropathy_sample78,Membranous nephropathy,83.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345979/suppl/GSM5345979_sample78.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345980,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.101395364010547,Membranous nephropathy_sample79,Membranous nephropathy,95.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345980/suppl/GSM5345980_sample79.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345981,candidate_DKD_TI_remodeling_no_SPP1_CD44,1.3260045752721554,Membranous nephropathy_sample80,Membranous nephropathy,115.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345981/suppl/GSM5345981_sample80.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345982,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.3659659547106474,Membranous nephropathy_sample81,Membranous nephropathy,99.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345982/suppl/GSM5345982_sample81.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345983,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.1944579685643624,minimal change disease_sample82,minimal change disease,78.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345983/suppl/GSM5345983_sample82.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345984,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.6812751838535787,minimal change disease_sample83,minimal change disease,61.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345984/suppl/GSM5345984_sample83.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345985,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.2909741609871342,minimal change disease_sample84,minimal change disease,98.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345985/suppl/GSM5345985_sample84.txt.gz,True,CKD,Mid eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345986,candidate_DKD_TI_remodeling_no_SPP1_CD44,-0.7020608241275309,minimal change disease_sample85,minimal change disease,135.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345986/suppl/GSM5345986_sample85.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345987,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.4322126190065817,minimal change disease_sample86,minimal change disease,106.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345987/suppl/GSM5345987_sample86.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345988,candidate_DKD_TI_remodeling_no_SPP1_CD44,-1.062627731680406,minimal change disease_sample87,minimal change disease,126.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345988/suppl/GSM5345988_sample87.txt.gz,True,CKD,High eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345989,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.1485839380893566,minimal change disease_sample88,minimal change disease,68.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345989/suppl/GSM5345989_sample88.txt.gz,True,CKD,Low eGFR,eGFR >=60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345990,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.6553964118076776,minimal change disease_sample89,minimal change disease,56.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345990/suppl/GSM5345990_sample89.txt.gz,True,CKD,Low eGFR,eGFR <60,"10-gene injury-dominant
+DKD/TI candidate",CKD
+GSE175759,GSM5345991,candidate_DKD_TI_remodeling_no_SPP1_CD44,0.4942960234511829,minimal change disease_sample90,minimal change disease,48.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345991/suppl/GSM5345991_sample90.txt.gz,True,CKD,Low eGFR,eGFR <60,"10-gene injury-dominant
+DKD/TI candidate",CKD

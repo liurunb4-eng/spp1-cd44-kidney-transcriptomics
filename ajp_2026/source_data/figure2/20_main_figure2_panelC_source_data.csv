@@ -1,0 +1,122 @@
+﻿sample_id,score,n_genes_scored,title,sample_group,tissue,dataset,compartment,group_collapsed
+GSM5607814,-0.2655273115402856,10,Living donor [CProbeT_LD_30_103],Living donor,Tubuli from kidney biopsy,GSE180394,Tubuli,Living donor
+GSM5607815,-0.920747562570788,10,Living donor [CProbeT_LD_30_109],Living donor,Tubuli from kidney biopsy,GSE180394,Tubuli,Living donor
+GSM5607816,-0.7042878423540867,10,Living donor [CProbeT_LD_30_131],Living donor,Tubuli from kidney biopsy,GSE180394,Tubuli,Living donor
+GSM5607817,-0.9449596680344468,10,Living donor [CProbeT_LD_30_138],Living donor,Tubuli from kidney biopsy,GSE180394,Tubuli,Living donor
+GSM5607818,-0.6983116637522679,10,Living donor [CProbeT_LD_30_142],Living donor,Tubuli from kidney biopsy,GSE180394,Tubuli,Living donor
+GSM5607819,-0.807682875070002,10,Living donor [CProbeT_LD_30_146],Living donor,Tubuli from kidney biopsy,GSE180394,Tubuli,Living donor
+GSM5607820,-0.8697068539187975,10,Living donor [CProbeT_LD_30_147],Living donor,Tubuli from kidney biopsy,GSE180394,Tubuli,Living donor
+GSM5607821,-0.5644160961285654,10,Living donor [CProbeT_LD_30_150],Living donor,Tubuli from kidney biopsy,GSE180394,Tubuli,Living donor
+GSM5607822,-0.8151544444338097,10,Living donor [CProbeT_LD_30_25],Living donor,Tubuli from kidney biopsy,GSE180394,Tubuli,Living donor
+GSM5607823,-0.8114600128450722,10,2' FSGS [CprobeT_geo10064],2' FSGS,Tubuli from kidney biopsy,GSE180394,Tubuli,FSGS/FGGS
+GSM5607824,0.3407382617307353,10,chronic Glomerulonephritis (GN) with infiltration by CLL [CprobeT_geo10040],chronic Glomerulonephritis (GN) with infiltration by CLL,Tubuli from kidney biopsy,GSE180394,Tubuli,Other GN/immune
+GSM5607825,0.5174315374091618,10,DN [CprobeT_geo10025],DN,Tubuli from kidney biopsy,GSE180394,Tubuli,DN
+GSM5607826,0.0578383761949698,10,DN [CprobeT_geo10026],DN,Tubuli from kidney biopsy,GSE180394,Tubuli,DN
+GSM5607827,0.6029569656987139,10,DN [CprobeT_geo10036],DN,Tubuli from kidney biopsy,GSE180394,Tubuli,DN
+GSM5607828,1.4221717953276198,10,DN [CprobeT_geo10058],DN,Tubuli from kidney biopsy,GSE180394,Tubuli,DN
+GSM5607829,0.1930998923465089,10,FGGS [CprobeT_geo10060],FGGS,Tubuli from kidney biopsy,GSE180394,Tubuli,FSGS/FGGS
+GSM5607830,-0.0063133199927257,10,FGGS [CprobeT_geo10038],FGGS,Tubuli from kidney biopsy,GSE180394,Tubuli,FSGS/FGGS
+GSM5607831,-0.2479316754597346,10,FGGS [CprobeT_geo10033],FGGS,Tubuli from kidney biopsy,GSE180394,Tubuli,FSGS/FGGS
+GSM5607832,1.3834539600806668,10,FGGS [CprobeT_geo10046],FGGS,Tubuli from kidney biopsy,GSE180394,Tubuli,FSGS/FGGS
+GSM5607833,-0.3211176798627465,10,FSGS [CprobeT_geo10023],FSGS,Tubuli from kidney biopsy,GSE180394,Tubuli,FSGS/FGGS
+GSM5607834,1.2539526202175697,10,FSGS [CprobeT_geo10066],FSGS,Tubuli from kidney biopsy,GSE180394,Tubuli,FSGS/FGGS
+GSM5607835,-0.2943112413221431,10,FSGS [CprobeT_geo10030],FSGS,Tubuli from kidney biopsy,GSE180394,Tubuli,FSGS/FGGS
+GSM5607836,-0.584032791673775,10,FGGS [CprobeT_geo10044],FGGS,Tubuli from kidney biopsy,GSE180394,Tubuli,FSGS/FGGS
+GSM5607837,1.0867802569388627,10,Hydronephrosis [CprobeT_geo10065],Hydronephrosis,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607838,-0.3867186592717967,10,IgAN [CprobeT_geo10050],IgAN,Tubuli from kidney biopsy,GSE180394,Tubuli,IgAN
+GSM5607839,-0.4435830923528878,10,IgAN  [CprobeT_geo10055],IgAN,Tubuli from kidney biopsy,GSE180394,Tubuli,IgAN
+GSM5607840,-0.0595109719100928,10,IgAN  [CprobeT_geo10047],IgAN,Tubuli from kidney biopsy,GSE180394,Tubuli,IgAN
+GSM5607841,0.2782366373044762,10,IgAN  [CprobeT_geo10062],IgAN,Tubuli from kidney biopsy,GSE180394,Tubuli,IgAN
+GSM5607842,-0.1403986262529188,10,Interstitial nephritis  [CprobeT_geo10032],Interstitial nephritis,Tubuli from kidney biopsy,GSE180394,Tubuli,Interstitial nephritis
+GSM5607843,0.9045373203900348,10,Interstitial nephritis   [CprobeT_geo10063],Interstitial nephritis,Tubuli from kidney biopsy,GSE180394,Tubuli,Interstitial nephritis
+GSM5607844,-0.0801346725024821,10,Hypertensive Nephrosclerosis [CprobeT_geo10039],Hypertensive Nephrosclerosis,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607845,0.8489532907191778,10,Light-Chain Deposit Disease (IgG lambda) [CprobeT_geo10059],Light-Chain Deposit Disease (IgG lambda),Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607846,-0.2101359982005203,10,LN-WHO III [CprobeT_geo10024],LN-WHO III,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607847,0.0608541909537351,10,LN-WHO III [CprobeT_geo10052],LN-WHO III,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607848,0.1732686385166459,10,LN-WHO III [CprobeT_geo10054],LN-WHO III,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607849,-0.3247738701264061,10,LN-WHO III [CprobeT_geo10028],LN-WHO III,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607850,-0.3229849296267052,10,LN-WHO III [CprobeT_geo10029],LN-WHO III,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607851,0.417458420008914,10,LN-WHO III [CprobeT_geo10057],LN-WHO III,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607852,-0.705243085102581,10,LN-WHO III+V [CprobeT_geo10051],LN-WHO III+V,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607853,0.9448261804123196,10,LN-WHO III+V [CprobeT_geo10027],LN-WHO III+V,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607854,1.071817929698664,10,LN-WHO III+V [CprobeT_geo10031],LN-WHO III+V,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607855,0.2922362729813749,10,LN-WHO IV  [CprobeT_geo10043],LN-WHO IV,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607856,-0.2213087485352896,10,LN-WHO IV+V [CprobeT_geo10022],LN-WHO IV+V,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607857,0.6223812356726779,10,LN-WHO V [CprobeT_geo10049],LN-WHO V,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607858,0.7380591895576052,10,LN-WHO V [CprobeT_geo10035],LN-WHO V,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607859,-0.0670844154564343,10,LN-WHO-I/II [CprobeT_geo10037],LN-WHO-I/II,Tubuli from kidney biopsy,GSE180394,Tubuli,LN
+GSM5607860,0.1540197866120386,10,MCD [CprobeT_geo10061],MCD,Tubuli from kidney biopsy,GSE180394,Tubuli,MCD
+GSM5607861,-0.2632514229673351,10,MN [CprobeT_geo10034],MN,Tubuli from kidney biopsy,GSE180394,Tubuli,MN
+GSM5607862,1.0879962893631574,10,MN [CprobeT_geo10048],MN,Tubuli from kidney biopsy,GSE180394,Tubuli,MN
+GSM5607863,0.0228398054726505,10,CKD with mod-severe Interstitial fibrosis [CprobeT_geo10042],CKD with mod-severe Interstitial fibrosis,Tubuli from kidney biopsy,GSE180394,Tubuli,Interstitial fibrosis
+GSM5607864,0.3264715905616818,10,Hypertensive Nephrosclerosis [CprobeT_geo10045],Hypertensive Nephrosclerosis,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607865,-0.6177725244379184,10,Thin-BMD [CprobeT_geo10053],Thin-BMD,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607866,-1.090776958534904,10,Thin-BMD [CprobeT_geo10041],Thin-BMD,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607867,-0.3776733975928269,10,Unaffected parts of Tumor Nephrectomy  [CprobeT_12-293],Unaffected parts of Tumor Nephrectomy,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607868,0.1781139058345656,10,Unaffected parts of Tumor Nephrectomy  [CprobeT_13-379],Unaffected parts of Tumor Nephrectomy,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607869,-0.0273956900588044,10,Unaffected parts of Tumor Nephrectomy  [CprobeT_13-509],Unaffected parts of Tumor Nephrectomy,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607870,0.2027063798357296,10,Unaffected parts of Tumor Nephrectomy  [CprobeT_13-527],Unaffected parts of Tumor Nephrectomy,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607871,-0.5106090910321466,10,Unaffected parts of Tumor Nephrectomy  [CprobeT_13-793],Unaffected parts of Tumor Nephrectomy,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607872,-0.4778835369189592,10,Unaffected parts of Tumor Nephrectomy  [CprobeT_13-808],Unaffected parts of Tumor Nephrectomy,Tubuli from kidney biopsy,GSE180394,Tubuli,Other CKD
+GSM5607752,-0.3776517643001528,10,Living donor [CProbeG_LD_30_25],Living donor,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Living donor
+GSM5607753,-0.01876967318066,10,Living donor [CProbeG_LD_30_103],Living donor,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Living donor
+GSM5607754,-0.4337800551783255,10,Living donor [CProbeG_LD_30_109],Living donor,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Living donor
+GSM5607755,-0.9104941165878836,10,Living donor [CProbeG_LD_30_131],Living donor,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Living donor
+GSM5607756,-0.7413365279072808,10,Living donor [CProbeG_LD_30_138],Living donor,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Living donor
+GSM5607757,-0.6078064675514698,10,Living donor [CProbeG_LD_30_142],Living donor,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Living donor
+GSM5607758,-0.6558893227987387,10,Living donor [CProbeG_LD_30_146],Living donor,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Living donor
+GSM5607759,-0.3429243566234134,10,Living donor [CProbeG_LD_30_147],Living donor,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Living donor
+GSM5607760,-0.4359281865989127,10,Living donor [CProbeG_LD_30_151],Living donor,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Living donor
+GSM5607761,0.2053017068125662,10,infection-associated GN [CprobeG_geo10015],infection-associated GN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other GN/immune
+GSM5607762,-0.0061282408739928,10,FSGS [CprobeG_geo10023],FSGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607763,-0.4249501121932152,10,LN-WHO III [CprobeG_geo10024],LN-WHO III,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607764,0.2173509864281143,10,infection-associated GN [CprobeG_geo10019],infection-associated GN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other GN/immune
+GSM5607765,0.2225705619409802,10,FSGS [CprobeG_geo10001],FSGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607766,0.5557055521955185,10,LN-WHO IV [CprobeG_geo10002],LN-WHO IV,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607767,0.2152608838095004,10,DN [CprobeG_geo10025],DN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,DN
+GSM5607768,0.0968348238544174,10,amyloidosis [CprobeG_geo10003],amyloidosis,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607769,0.0111306053546017,10,Membrano-Proliferative GN   [CprobeG_geo10056],Membrano-Proliferative GN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607770,0.0569649011441891,10,MN [CprobeG_geo10067],MN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,MN
+GSM5607771,0.9991935551062828,10,DN [CprobeG_geo10004],DN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,DN
+GSM5607772,-0.112406552148857,10,AKI [CprobeG_geo10068],AKI,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607773,0.955927139795508,10,LN-WHO III [CprobeG_geo10005],LN-WHO III,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607774,-0.2278849561945174,10,infection-associated GN [CprobeG_geo10016],infection-associated GN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other GN/immune
+GSM5607775,-0.8541879882236161,10,LN-WHO V [CprobeG_geo10006],LN-WHO V,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607776,0.9299792171294556,10,LN-WHO IV [CprobeG_geo10007],LN-WHO IV,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607777,-0.6886595221110133,10,FGGS [CprobeG_geo10008],FGGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607778,0.371344019184352,10,2'FSGS [CprobeG_geo10009],2'FSGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607779,0.4469243533238571,10,LN-WHO III [CprobeG_geo10010],LN-WHO III,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607780,-0.0086939832011364,10,FGGS [CprobeG_geo10011],FGGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607781,1.163495591596988,10,FGGS [CprobeG_geo10012],FGGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607782,-0.2100087137761198,10,2'FSGS [CprobeG_geo10017],2'FSGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607783,-0.6241726606772472,10,Thin-BMD [CprobeG_geo10018],Thin-BMD,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607784,0.3115089837890221,10,Immuncomplex GN [CprobeG_geo10013],Immuncomplex GN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other GN/immune
+GSM5607785,-0.5534395483249763,10,LN-WHO-V [CprobeG_geo10020],LN-WHO-V,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607786,0.0716232268949415,10,IgAN [CprobeG_geo10014],IgAN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,IgAN
+GSM5607787,0.4469152692123126,10,LN-WHO IV  [CprobeG_geo10043],LN-WHO IV,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607788,0.3412790709064751,10,LN-WHO IV+V [CprobeG_geo10022],LN-WHO IV+V,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607789,-0.3490489105948295,10,DN [CprobeG_geo10026],DN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,DN
+GSM5607790,-0.0984612086865785,10,FGGS [CprobeG_geo10044],FGGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607791,0.0123755957872834,10,LN-WHO III+V [CprobeG_geo10027],LN-WHO III+V,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607792,0.3175261052993265,10,LN-WHO III [CprobeG_geo10028],LN-WHO III,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607793,-0.1890354202277608,10,LN-WHO III [CprobeG_geo10029],LN-WHO III,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607794,0.54495660579493,10,FGGS [CprobeG_geo10033],FGGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607795,-0.6626938888512848,10,MN [CprobeG_geo10034],MN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,MN
+GSM5607796,0.5308351464108012,10,LN-WHO V [CprobeG_geo10035],LN-WHO V,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607797,1.131453683283828,10,DN [CprobeG_geo10036],DN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,DN
+GSM5607798,-0.1638003143513389,10,LN-WHO-I/II [CprobeG_geo10037],LN-WHO-I/II,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607799,0.7491301743273125,10,FGGS [CprobeG_geo10038],FGGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607800,0.3090084898082977,10,chronic Glomerulonephritis (GN) with infiltration by CLL [CprobeG_geo10040],chronic Glomerulonephritis (GN) with infiltration by CLL,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other GN/immune
+GSM5607801,-0.6280580549619792,10,Thin-BMD [CprobeG_geo10041],Thin-BMD,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607802,-0.2485726548433414,10,CKD with mod-severe Interstitial fibrosis [CprobeG_geo10042],CKD with mod-severe Interstitial fibrosis,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Interstitial fibrosis
+GSM5607803,0.1988679472490109,10,Fibrillary GN [CprobeG_geo10021],Fibrillary GN,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607804,-0.2320153527901491,10,FSGS [CprobeG_geo10030],FSGS,Glomeruli from kidney biopsy,GSE180393,Glomeruli,FSGS/FGGS
+GSM5607805,0.8581637898291647,10,LN-WHO III+V [CprobeG_geo10031],LN-WHO III+V,Glomeruli from kidney biopsy,GSE180393,Glomeruli,LN
+GSM5607806,0.147728024533271,10,Interstitial nephritis  [CprobeG_geo10032],Interstitial nephritis,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Interstitial nephritis
+GSM5607807,-0.0472002830800786,10,Hypertensive Nephrosclerosis [CprobeG_geo10039],Hypertensive Nephrosclerosis,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607808,-0.0800903504177789,10,Unaffected parts of Tumor Nephrectomy  [CProbeG_TN_12-293],Unaffected parts of Tumor Nephrectomy,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607809,-0.0174259574249265,10,Unaffected parts of Tumor Nephrectomy  [CProbeG_TN_13-379],Unaffected parts of Tumor Nephrectomy,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607810,-0.435883851196401,10,Unaffected parts of Tumor Nephrectomy  [CProbeG_TN_13-509],Unaffected parts of Tumor Nephrectomy,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607811,-0.5028250517737151,10,Unaffected parts of Tumor Nephrectomy  [CProbeG_TN_13-527],Unaffected parts of Tumor Nephrectomy,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607812,-0.3899311568926372,10,Unaffected parts of Tumor Nephrectomy  [CProbeG_TN_13-793],Unaffected parts of Tumor Nephrectomy,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD
+GSM5607813,-0.1392008062579985,10,Unaffected parts of Tumor Nephrectomy  [CProbeG_TN_13-808],Unaffected parts of Tumor Nephrectomy,Glomeruli from kidney biopsy,GSE180393,Glomeruli,Other CKD

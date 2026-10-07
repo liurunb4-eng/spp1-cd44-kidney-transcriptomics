@@ -1,0 +1,6 @@
+﻿signature,endpoint,compartment,n_genes_found,n_up_in_rapid,n_down_in_rapid,median_log2FC,mean_log2FC,n_nominal_p_lt_0_05,n_fdr_lt_0_10,n_fdr_lt_0_05,nominal_genes,fdr05_genes
+candidate_10_gene,CKD_stage_advancement,tubulointerstitium,6,6,0,0.6835348568247095,0.7431709596002541,3,1,0,COL1A1;HAVCR1;FN1,
+candidate_10_gene,NRA,tubulointerstitium,6,1,5,-0.4309908201251889,-0.356724661013382,1,0,0,VCAM1,
+candidate_10_gene,UACR_increase,tubulointerstitium,6,4,2,0.3015704162810449,0.1859736342460497,0,0,0,,
+candidate_10_gene,composite_outcome,tubulointerstitium,6,6,0,0.5643033297163773,0.6269380472627346,0,0,0,,
+candidate_10_gene,steep_eGFR_slope,tubulointerstitium,6,5,1,0.4671197029551162,0.5500559392313141,1,0,0,HAVCR1,

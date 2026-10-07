@@ -6,6 +6,10 @@ This repository contains analysis scripts and selected supplementary tables for 
 
 The study re-analyzes public rat and human kidney transcriptomic datasets to nominate an SPP1/CD44-related tubular-immune program associated with kidney injury and kidney function decline.
 
+## AJP 2026 additive deposition
+
+The `ajp_2026/` directory contains the later human CKD injury-remodeling analysis prepared for *The American Journal of Pathology*. It adds the frozen 10-gene candidate analysis, matched-random-control audit, pan-CKD and GSE137570 clinicopathologic analyses, final Figure 1-5 scripts, and figure source data. The historical SPP1/CD44 files and the `v1.0.1` release remain unchanged. See [`ajp_2026/README.md`](ajp_2026/README.md).
+
 ## Scope
 
 The repository supports the reported secondary analyses of public datasets, including:

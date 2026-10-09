@@ -17,7 +17,7 @@ The filenames retain their original project step numbers. Before running upstrea
 2. Figure 2: `scripts/figures/20_main_figure2_clinical_pan_ckd_audit.py`, using outputs from steps 12 and 16.
 3. Figure 3: `scripts/figures/37_main_figure3_gse137570_patient_level_support.py`, using outputs from step 35.
 4. Figure 4: `scripts/figures/45_main_figure4_acoba_progression_context_bhq.py`, using outputs from step 13.
-5. Figure 5: `scripts/figures/43_rebuild_figure5_non_circular.py`, using derived GSE131882/GSE195460 PT/PT-like cell tables and the immune-context summary from GSE211785.
+5. Figure 5: `scripts/figures/71_rebuild_figure5_marker_excluded.py`, using derived GSE131882/GSE195460 PT/PT-like cell tables and the immune-context summary from GSE211785. Each displayed marker is removed from both the direct PCA features and its contribution to the injury score; the script also builds a fully target-free diagnostic coordinate from residual injury genes and tubular identity features.
 
 The `source_data/figure1` through `source_data/figure5` folders contain the final tables used to audit the plotted values. They are not substitutes for the original public expression matrices.
 

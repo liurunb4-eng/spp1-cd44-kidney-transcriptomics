@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Step 43: rebuild Figure 5 cellular context with non-circular PT injury-state coordinates.
+Step 71: rebuild Figure 5 cellular context with fully marker-excluded PT injury-state coordinates.
 
 Figure contract:
 Core conclusion: selected injury-related components align with PT/PT-like injury-state context
-when the coordinate used for each marker excludes that marker; independent PT-state bins show
-marker enrichment toward injury-associated states without using SPP1/HAVCR1/LCN2/VCAM1 to build
-the display coordinate.
+when the tested marker is removed both from the direct PCA feature set and from the precomputed
+injury score; a target-free PT-state coordinate is also constructed from the residual injury
+genes and tubular identity features.
 Archetype: schematic-led quantitative grid.
 Backend: Python/matplotlib only.
 """
@@ -27,9 +27,10 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 HERE = Path(os.environ.get("AJP_WORKDIR", Path(__file__).resolve().parents[2] / "work"))
 HERE.mkdir(parents=True, exist_ok=True)
 ROOT = Path(os.environ.get("AJP_DATA_ROOT", REPO_ROOT))
+DEPOSITION_SOURCE = Path(__file__).resolve().parents[2] / "source_data" / "figure5"
 GSE131_CELLS = ROOT / "results" / "human_ckd_gse131882_atlas_lite" / "human_ckd_gse131882_atlas_lite_cells.csv"
 GSE195_CELLS = ROOT / "results" / "human_ckd_gse195460_first_pass" / "human_ckd_gse195460_celllevel_markers.csv"
-PREFIX = HERE / "43_main_figure5_singlecell_context_non_circular"
+PREFIX = HERE / "71_main_figure5_marker_excluded_context"
 
 mpl.rcParams.update({
     "font.family": "sans-serif",
@@ -67,8 +68,23 @@ MARKER_COLOR = {
     "LCN2": "#7B6BAE",
     "VCAM1": "#4B8B7A",
 }
-BASE_FEATURES = ["Injury_score", "SPP1_logcp10k", "HAVCR1_logcp10k", "LCN2_logcp10k", "VCAM1_logcp10k", "LRP2_logcp10k", "SLC34A1_logcp10k"]
-INDEPENDENT_FEATURES = ["Injury_score", "PT_score", "LRP2_logcp10k", "SLC34A1_logcp10k"]
+BASE_FEATURES = ["marker_excluded_injury_score", "SPP1_logcp10k", "HAVCR1_logcp10k", "LCN2_logcp10k", "VCAM1_logcp10k", "LRP2_logcp10k", "SLC34A1_logcp10k"]
+TARGET_FREE_FEATURES = ["target_free_injury_score", "PT_score", "LRP2_logcp10k", "SLC34A1_logcp10k"]
+
+# The precomputed injury score is the arithmetic mean of these logCP10K values.
+INJURY_SCORE_DEFINITION = {
+    "GSE131882": ["SPP1_logcp10k", "HAVCR1_logcp10k", "LCN2_logcp10k", "KRT8_logcp10k", "KRT18_logcp10k"],
+    "GSE195460": ["SPP1_logcp10k", "HAVCR1_logcp10k", "LCN2_logcp10k", "VCAM1_logcp10k", "VIM_logcp10k", "KRT8_logcp10k", "KRT18_logcp10k"],
+}
+
+
+def resolve_context_file(*names: str) -> Path | None:
+    for base in (HERE, DEPOSITION_SOURCE):
+        for name in names:
+            candidate = base / name
+            if candidate.is_file():
+                return candidate
+    return None
 
 
 
@@ -123,7 +139,7 @@ def rank01(coord: np.ndarray) -> np.ndarray:
     return (rank - np.nanmin(rank)) / denom
 
 
-def pca_coordinate(sub: pd.DataFrame, features: list[str], orient_col: str = "Injury_score") -> tuple[np.ndarray, dict]:
+def pca_coordinate(sub: pd.DataFrame, features: list[str], orient_col: str) -> tuple[np.ndarray, dict]:
     x = sub[features].fillna(0.0).to_numpy(dtype=float)
     x_scaled = StandardScaler().fit_transform(x)
     pca = PCA(n_components=min(2, x_scaled.shape[1]), random_state=20261007)
@@ -157,12 +173,24 @@ def add_independent_coordinate(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
     meta_rows = []
     for dataset, sub in df.groupby("dataset", sort=False):
         sub = sub.copy()
-        coord, meta = pca_coordinate(sub, INDEPENDENT_FEATURES)
-        sub["independent_pt_state_coordinate"] = coord
-        sub["independent_bin"] = pd.qcut(sub["independent_pt_state_coordinate"], q=5, labels=["Q1 low", "Q2", "Q3", "Q4", "Q5 high"], duplicates="drop")
-        sub["independent_tertile"] = pd.qcut(sub["independent_pt_state_coordinate"], q=3, labels=["T1 low", "T2 mid", "T3 high"], duplicates="drop")
+        score_markers = INJURY_SCORE_DEFINITION[dataset]
+        excluded_markers = [m for m in TEST_MARKERS if m in score_markers]
+        residual_n = len(score_markers) - len(excluded_markers)
+        if residual_n <= 0:
+            raise ValueError(f"No residual injury genes remain for {dataset}")
+        sub["target_free_injury_score"] = (
+            len(score_markers) * sub["Injury_score"]
+            - sub[excluded_markers].sum(axis=1)
+        ) / residual_n
+        coord, meta = pca_coordinate(sub, TARGET_FREE_FEATURES, orient_col="target_free_injury_score")
+        sub["target_free_pt_state_coordinate"] = coord
+        sub["target_free_bin"] = pd.qcut(sub["target_free_pt_state_coordinate"], q=5, labels=["Q1 low", "Q2", "Q3", "Q4", "Q5 high"], duplicates="drop")
+        sub["target_free_tertile"] = pd.qcut(sub["target_free_pt_state_coordinate"], q=3, labels=["T1 low", "T2 mid", "T3 high"], duplicates="drop")
         meta["dataset"] = dataset
-        meta["coordinate"] = "independent_pt_state_coordinate"
+        meta["coordinate"] = "target_free_pt_state_coordinate"
+        meta["original_injury_gene_n"] = len(score_markers)
+        meta["excluded_target_markers"] = ";".join(excluded_markers)
+        meta["residual_injury_gene_n"] = residual_n
         meta_rows.append(meta)
         out.append(sub)
     return pd.concat(out, ignore_index=True), pd.DataFrame(meta_rows)
@@ -175,17 +203,24 @@ def leave_one_marker_out_stats(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
     for dataset, sub0 in df.groupby("dataset", sort=False):
         for marker in TEST_MARKERS:
             sub = sub0.copy()
+            score_markers = INJURY_SCORE_DEFINITION[dataset]
+            if marker in score_markers:
+                sub["marker_excluded_injury_score"] = (
+                    len(score_markers) * sub["Injury_score"] - sub[marker]
+                ) / (len(score_markers) - 1)
+            else:
+                sub["marker_excluded_injury_score"] = sub["Injury_score"]
             features = [f for f in BASE_FEATURES if f != marker]
-            coord, meta = pca_coordinate(sub, features)
-            coord_name = f"loo_coordinate_for_{MARKER_LABEL[marker]}"
+            coord, meta = pca_coordinate(sub, features, orient_col="marker_excluded_injury_score")
+            coord_name = f"marker_excluded_coordinate_for_{MARKER_LABEL[marker]}"
             sub[coord_name] = coord
-            sub["loo_tertile"] = pd.qcut(sub[coord_name], q=3, labels=["T1 low", "T2 mid", "T3 high"], duplicates="drop")
+            sub["marker_excluded_tertile"] = pd.qcut(sub[coord_name], q=3, labels=["T1 low", "T2 mid", "T3 high"], duplicates="drop")
             n, rho, p = spearman(sub[coord_name], sub[marker])
             # sample-level high-low differences using the marker-specific leave-one-out coordinate.
             diffs = []
             for (sample, condition), ss in sub.groupby(["sample_id", "condition"], sort=False):
-                low = ss[ss["loo_tertile"].astype(str).eq("T1 low")]
-                high = ss[ss["loo_tertile"].astype(str).eq("T3 high")]
+                low = ss[ss["marker_excluded_tertile"].astype(str).eq("T1 low")]
+                high = ss[ss["marker_excluded_tertile"].astype(str).eq("T3 high")]
                 if low.empty or high.empty:
                     continue
                 diff = float(high[marker].mean() - low[marker].mean())
@@ -196,7 +231,7 @@ def leave_one_marker_out_stats(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
                     "condition": condition,
                     "marker": marker,
                     "marker_label": MARKER_LABEL[marker],
-                    "coordinate_type": "leave_one_marker_out",
+                    "coordinate_type": "fully_marker_excluded",
                     "coordinate_features": ";".join(features),
                     "low_mean": float(low[marker].mean()),
                     "high_mean": float(high[marker].mean()),
@@ -212,8 +247,9 @@ def leave_one_marker_out_stats(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
                 "dataset": dataset,
                 "marker": marker,
                 "marker_label": MARKER_LABEL[marker],
-                "coordinate_type": "leave_one_marker_out",
+                "coordinate_type": "fully_marker_excluded",
                 "coordinate_features": ";".join(features),
+                "marker_removed_from_injury_score": marker in score_markers,
                 "cell_n": n,
                 "cell_level_spearman_rho": rho,
                 "cell_level_spearman_p": p,
@@ -224,22 +260,24 @@ def leave_one_marker_out_stats(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
             meta["dataset"] = dataset
             meta["marker_tested"] = marker
             meta["marker_label"] = MARKER_LABEL[marker]
-            meta["coordinate_type"] = "leave_one_marker_out"
+            meta["coordinate_type"] = "fully_marker_excluded"
+            meta["marker_removed_from_injury_score"] = marker in score_markers
             meta_rows.append(meta)
     return pd.DataFrame(rows), pd.DataFrame(meta_rows), pd.DataFrame(highlow_rows)
 
 
 def independent_bin_trends(df: pd.DataFrame) -> pd.DataFrame:
     rows = []
-    for (dataset, bin_name), sub in df.groupby(["dataset", "independent_bin"], observed=True, sort=False):
+    for (dataset, bin_name), sub in df.groupby(["dataset", "target_free_bin"], observed=True, sort=False):
         row = {
             "dataset": dataset,
-            "coordinate_type": "independent_pt_state_coordinate",
-            "coordinate_features": ";".join(INDEPENDENT_FEATURES),
+            "coordinate_type": "target_free_pt_state_coordinate",
+            "coordinate_features": ";".join(TARGET_FREE_FEATURES),
             "trajectory_bin": str(bin_name),
             "n_cells": int(len(sub)),
             "n_samples": int(sub["sample_id"].nunique()),
-            "mean_coordinate": float(sub["independent_pt_state_coordinate"].mean()),
+            "mean_coordinate": float(sub["target_free_pt_state_coordinate"].mean()),
+            "mean_target_free_injury_score": float(sub["target_free_injury_score"].mean()),
             "mean_Injury_score": float(sub["Injury_score"].mean()),
             "mean_PT_score": float(sub["PT_score"].mean()),
             "mean_LRP2": float(sub["LRP2_logcp10k"].mean()),
@@ -294,20 +332,20 @@ def draw_schematic(ax: plt.Axes) -> None:
     ax.axis("off")
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
-    panel_label(ax, "A", "Non-circular cellular-context audit")
+    panel_label(ax, "A", "Marker-excluded cellular-context analysis")
     boxes = [
-        (0.05, 0.58, 0.28, 0.22, "PT/PT-like cells\nGSE131882, GSE195460", COL_TUB_LIGHT, COL_TUB),
-        (0.39, 0.58, 0.25, 0.22, "Coordinate rebuilt\nwithout tested marker", "#F7F1DA", COL_ACCENT),
-        (0.71, 0.58, 0.24, 0.22, "Marker association\nand bin trends", "#E8F0EA", "#4B8B7A"),
+        (0.05, 0.58, 0.28, 0.22, "PT / PT-like cells\nGSE131882 | GSE195460", COL_TUB_LIGHT, COL_TUB),
+        (0.39, 0.58, 0.25, 0.22, "Target excluded\nfrom inputs and score", "#F7F1DA", COL_ACCENT),
+        (0.71, 0.58, 0.24, 0.22, "Marker association\nand sample contrast", "#E8F0EA", "#4B8B7A"),
         (0.39, 0.18, 0.25, 0.22, "CD44 immune context\nkept as separate evidence", COL_IMM_LIGHT, COL_IMM),
     ]
     for x, y, w, h, txt, fc, ec in boxes:
         patch = FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.02,rounding_size=0.025", facecolor=fc, edgecolor=ec, linewidth=1.1)
         ax.add_patch(patch)
-        ax.text(x+w/2, y+h/2, txt, ha="center", va="center", fontsize=6.8, color=COL_DARK)
+        ax.text(x+w/2, y+h/2, txt, ha="center", va="center", fontsize=6.2, color=COL_DARK)
     for x0, y0, x1, y1 in [(0.33,0.69,0.39,0.69),(0.64,0.69,0.71,0.69),(0.515,0.58,0.515,0.40)]:
         ax.add_patch(FancyArrowPatch((x0,y0),(x1,y1), arrowstyle="-|>", mutation_scale=8, lw=0.8, color=COL_NEUTRAL))
-    ax.text(0.05, 0.08, "Key fix: SPP1/HAVCR1/LCN2/VCAM1 are not used to define their own displayed coordinate.", fontsize=6.2, color="#555555")
+    ax.text(0.05, 0.08, "Each displayed association uses a coordinate that excludes the tested marker directly and from the injury score.", fontsize=6.2, color="#555555")
 
 
 def draw_figure(panelB: pd.DataFrame, panelC: pd.DataFrame, panelD: pd.DataFrame | None) -> None:
@@ -320,8 +358,8 @@ def draw_figure(panelB: pd.DataFrame, panelC: pd.DataFrame, panelD: pd.DataFrame
 
     draw_schematic(axA)
 
-    # Panel B heatmap: leave-one-marker-out rho.
-    panel_label(axB, "B", "Cell-level correlations with leave-one-marker-out coordinates")
+    # Panel B heatmap: fully marker-excluded rho.
+    panel_label(axB, "B", "Cell-level correlations with marker-excluded coordinates")
     heat = panelB.pivot(index="marker_label", columns="dataset", values="cell_level_spearman_rho").reindex(["SPP1", "HAVCR1", "LCN2", "VCAM1"])
     vals = heat.to_numpy(dtype=float)
     vmax = max(0.65, float(np.nanmax(np.abs(vals))))
@@ -340,7 +378,7 @@ def draw_figure(panelB: pd.DataFrame, panelC: pd.DataFrame, panelD: pd.DataFrame
     for s in axB.spines.values():
         s.set_visible(False)
 
-    # Panel C: sample-level high-low contrast from leave-one-marker-out coordinate.
+    # Panel C: sample-level high-low contrast from marker-excluded coordinate.
     panel_label(axC, "C", "Sample-level high-minus-low marker contrasts")
     plot = panelB.copy()
     genes = ["SPP1", "HAVCR1", "LCN2", "VCAM1"]
@@ -380,8 +418,8 @@ def draw_figure(panelB: pd.DataFrame, panelC: pd.DataFrame, panelD: pd.DataFrame
         axD.axis("off")
         axD.text(0.02, 0.5, "CD44 immune-context data not available", fontsize=7)
 
-    fig.suptitle("Figure 5. Non-circular single-cell context for injury-related remodeling components", x=0.01, y=0.985, ha="left", fontsize=10, fontweight="bold")
-    fig.text(0.01, 0.020, "Panels B-C use leave-one-marker-out coordinates; the tested marker is excluded from its own coordinate. CD44 immune context is summarized separately from the tubular coordinate.", ha="left", fontsize=6.1, color="#555555")
+    fig.suptitle("Figure 5. Marker-excluded cellular context for injury-related remodeling components", x=0.01, y=0.985, ha="left", fontsize=10, fontweight="bold")
+    fig.text(0.01, 0.020, "Panels B-C exclude each tested marker from both the direct feature set and its injury-score component. CD44 immune context is summarized separately.", ha="left", fontsize=6.1, color="#555555")
     for ext in ["svg", "pdf", "png", "tiff"]:
         if ext in ("png", "tiff"):
             fig.savefig(f"{PREFIX}.{ext}", dpi=600, bbox_inches="tight")
@@ -390,8 +428,8 @@ def draw_figure(panelB: pd.DataFrame, panelC: pd.DataFrame, panelD: pd.DataFrame
     plt.close(fig)
 
 def load_cd44_context() -> pd.DataFrame:
-    p = HERE / "38_main_figure5_panelD_cd44_immune_context.csv"
-    if not p.exists():
+    p = resolve_context_file("38_main_figure5_panelD_cd44_immune_context.csv")
+    if p is None:
         return pd.DataFrame()
     d = pd.read_csv(p)
     # Harmonize label and effect column names from existing panelD source.
@@ -432,51 +470,63 @@ def main() -> None:
     panelC = make_panelC_long(trend)
     panelD = load_cd44_context()
 
-    df_ind.to_csv(HERE / "43_non_circular_pt_state_cells.csv.gz", index=False, compression="gzip")
-    ind_meta.to_csv(HERE / "43_non_circular_independent_coordinate_loadings.csv", index=False, encoding="utf-8-sig")
-    loo_stats.to_csv(HERE / "43_figure5_panelB_leave_one_marker_out_correlations.csv", index=False, encoding="utf-8-sig")
-    loo_meta.to_csv(HERE / "43_leave_one_marker_out_coordinate_loadings.csv", index=False, encoding="utf-8-sig")
-    loo_highlow.to_csv(HERE / "43_leave_one_marker_out_sample_high_low.csv", index=False, encoding="utf-8-sig")
-    trend.to_csv(HERE / "43_independent_pt_state_bin_summary.csv", index=False, encoding="utf-8-sig")
-    panelC.to_csv(HERE / "43_figure5_panelC_independent_coordinate_trends.csv", index=False, encoding="utf-8-sig")
+    df_ind.to_csv(HERE / "71_marker_excluded_pt_state_cells.csv.gz", index=False, compression="gzip")
+    ind_meta.to_csv(HERE / "71_target_free_coordinate_loadings.csv", index=False, encoding="utf-8-sig")
+    loo_stats.to_csv(HERE / "71_figure5_panelB_marker_excluded_correlations.csv", index=False, encoding="utf-8-sig")
+    loo_meta.to_csv(HERE / "71_marker_excluded_coordinate_loadings.csv", index=False, encoding="utf-8-sig")
+    loo_highlow.to_csv(HERE / "71_marker_excluded_sample_high_low.csv", index=False, encoding="utf-8-sig")
+    trend.to_csv(HERE / "71_target_free_pt_state_bin_summary.csv", index=False, encoding="utf-8-sig")
+    panelC.to_csv(HERE / "71_figure5_panelC_target_free_coordinate_trends.csv", index=False, encoding="utf-8-sig")
 
     draw_figure(loo_stats, panelC, panelD)
 
-    old_stats = pd.read_csv(HERE / "38_main_figure5_panelB_injury_coordinate_correlations.csv")
-    old = old_stats[old_stats["marker"].isin(TEST_MARKERS)][["dataset", "marker", "cell_level_spearman_rho"]].rename(columns={"cell_level_spearman_rho": "old_circular_rho"})
+    old_path = resolve_context_file(
+        "38_main_figure5_panelB_injury_coordinate_correlations.csv",
+        "71_old_vs_marker_excluded_correlations.csv",
+    )
+    if old_path is None:
+        old = pd.DataFrame(columns=["dataset", "marker", "old_circular_rho"])
+    else:
+        old_stats = pd.read_csv(old_path)
+        if "old_circular_rho" in old_stats.columns:
+            old = old_stats[["dataset", "marker", "old_circular_rho"]].drop_duplicates()
+        else:
+            old = old_stats[old_stats["marker"].isin(TEST_MARKERS)][["dataset", "marker", "cell_level_spearman_rho"]].rename(columns={"cell_level_spearman_rho": "old_circular_rho"})
     comp = loo_stats.merge(old, on=["dataset", "marker"], how="left")
-    comp.to_csv(HERE / "43_old_vs_non_circular_marker_correlations.csv", index=False, encoding="utf-8-sig")
+    comp.to_csv(HERE / "71_old_vs_marker_excluded_correlations.csv", index=False, encoding="utf-8-sig")
 
     md = []
-    md.append("# Figure 5 non-circular rebuild, 2026-10-07\n\n")
+    md.append("# Figure 5 marker-excluded rebuild, 2026-10-09\n\n")
     md.append("## Core conclusion\n\n")
-    md.append("Selected injury-related components align with PT/PT-like cellular injury-state context after removing the mathematical circularity in the original marker-defined coordinate.\n\n")
+    md.append("Selected injury-related components align with PT/PT-like cellular injury-state context after the tested marker is removed both directly and from the precomputed injury score.\n\n")
     md.append("## What changed\n\n")
-    md.append("- Panel B now uses leave-one-marker-out coordinates: the marker being tested is excluded from the PCA coordinate used for its correlation.\n")
-    md.append("- Panel C uses an independent PT-state coordinate built from Injury score, PT score, LRP2 and SLC34A1, excluding SPP1, HAVCR1, LCN2 and VCAM1.\n")
+    md.append("- Panels B-C use marker-excluded coordinates: the tested marker is removed from both the direct PCA features and its contribution to the injury score.\n")
+    md.append("- A target-free PT-state coordinate is built from the residual injury genes, PT score, LRP2 and SLC34A1, excluding SPP1, HAVCR1, LCN2 and VCAM1.\n")
     md.append("- CD44 is summarized as separate immune-context evidence and is not used to define the tubular coordinate.\n\n")
-    md.append("## Leave-one-marker-out correlations\n\n")
+    md.append("## Fully marker-excluded correlations\n\n")
     md.append(md_table(loo_stats[["dataset","marker_label","cell_level_spearman_rho","cell_level_spearman_p","sample_n","sample_mean_high_minus_low","sample_wilcoxon_p"]]))
-    md.append("\n\n## Old versus non-circular comparison\n\n")
+    md.append("\n\n## Old versus fully marker-excluded comparison\n\n")
     md.append(md_table(comp[["dataset","marker_label","old_circular_rho","cell_level_spearman_rho"]]))
     md.append("\n\n## Output files\n\n")
     for fn in [
-        "43_main_figure5_singlecell_context_non_circular.svg",
-        "43_main_figure5_singlecell_context_non_circular.pdf",
-        "43_main_figure5_singlecell_context_non_circular.png",
-        "43_main_figure5_singlecell_context_non_circular.tiff",
-        "43_figure5_panelB_leave_one_marker_out_correlations.csv",
-        "43_figure5_panelC_independent_coordinate_trends.csv",
-        "43_non_circular_independent_coordinate_loadings.csv",
-        "43_leave_one_marker_out_coordinate_loadings.csv",
-        "43_old_vs_non_circular_marker_correlations.csv",
+        "71_main_figure5_marker_excluded_context.svg",
+        "71_main_figure5_marker_excluded_context.pdf",
+        "71_main_figure5_marker_excluded_context.png",
+        "71_main_figure5_marker_excluded_context.tiff",
+        "71_figure5_panelB_marker_excluded_correlations.csv",
+        "71_figure5_panelC_target_free_coordinate_trends.csv",
+        "71_marker_excluded_sample_high_low.csv",
+        "71_target_free_pt_state_bin_summary.csv",
+        "71_target_free_coordinate_loadings.csv",
+        "71_marker_excluded_coordinate_loadings.csv",
+        "71_old_vs_marker_excluded_correlations.csv",
     ]:
         md.append(f"- `{fn}`\n")
-    (HERE / "43_figure5_non_circular_rebuild_report.md").write_text("".join(md), encoding="utf-8")
+    (HERE / "71_figure5_marker_excluded_rebuild_report.md").write_text("".join(md), encoding="utf-8")
 
     print("DONE")
     print(PREFIX.with_suffix(".png"))
-    print(HERE / "43_figure5_non_circular_rebuild_report.md")
+    print(HERE / "71_figure5_marker_excluded_rebuild_report.md")
     print(loo_stats[["dataset","marker_label","cell_level_spearman_rho","sample_mean_high_minus_low"]].to_string(index=False))
 
 

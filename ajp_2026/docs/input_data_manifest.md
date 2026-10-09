@@ -9,8 +9,8 @@ All analyses use public, de-identified human kidney transcriptomic resources or 
 | GSE180394 | C-PROBE tubulointerstitial pan-CKD context | Download from GEO |
 | GSE180393 | C-PROBE glomerular context | Download from GEO |
 | GSE137570 | Patient-level progressive CKD grouping, GFR, and TIF | Download normalized workbook from GEO |
-| GSE131882 | PT and myeloid cellular context | Public source; large processed cell table not redistributed |
-| GSE195460 | PT-like cellular context | Public source; large processed cell table not redistributed |
+| GSE131882 | PT and myeloid cellular context; marker-excluded coordinates use an injury score originally defined from SPP1, HAVCR1, LCN2, KRT8, and KRT18 | Public source; large processed cell table not redistributed |
+| GSE195460 | PT-like cellular context; marker-excluded coordinates use an injury score originally defined from SPP1, HAVCR1, LCN2, VCAM1, VIM, KRT8, and KRT18 | Public source; large processed cell table not redistributed |
 | GSE211785 | Immune/myeloid CD44 context | Public source; large processed cell table not redistributed |
 | Acoba/KaroKidney supplementary tables | DKD progression-associated gene-level alignment | Obtain from the article supplementary files |
 

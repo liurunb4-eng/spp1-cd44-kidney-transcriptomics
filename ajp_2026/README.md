@@ -20,6 +20,8 @@ The AJP analysis evaluates a 10-gene injury-remodeling candidate comprising `HAV
 - `source_data/SHA256SUMS.txt`: integrity hashes for all deposited source-data files.
 - `validate_deposition.py`: structural, syntax, and checksum validation.
 
+Figure 5 uses fully marker-excluded PT/PT-like state coordinates. For each tested marker, the marker is removed from the direct PCA features and, when applicable, from its contribution to the precomputed injury score. The deposited Figure 5 tables include marker-level correlations, within-sample contrasts, coordinate loadings, target-free coordinate summaries, and the comparison with the original circular coordinate.
+
 ## Reproducibility boundary
 
 Raw sequencing matrices, large processed expression objects, and third-party atlas files are not redistributed. The deposited analysis scripts preserve the computations used in the manuscript. Set `AJP_DATA_ROOT` to the local project or public-data root and, if desired, set `AJP_WORKDIR` to the directory used for intermediate outputs and regenerated figures. `GSE137570_XLSX` can point directly to the downloaded normalized workbook. The final source-data tables are provided independently for result auditing.

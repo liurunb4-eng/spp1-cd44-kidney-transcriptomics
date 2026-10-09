@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import csv
 import hashlib
 from pathlib import Path
 
@@ -16,7 +17,7 @@ REQUIRED_SCRIPTS = [
     "scripts/figures/20_main_figure2_clinical_pan_ckd_audit.py",
     "scripts/figures/31_main_figure1_signature_audit_reframed.py",
     "scripts/figures/37_main_figure3_gse137570_patient_level_support.py",
-    "scripts/figures/43_rebuild_figure5_non_circular.py",
+    "scripts/figures/71_rebuild_figure5_marker_excluded.py",
     "scripts/figures/45_main_figure4_acoba_progression_context_bhq.py",
 ]
 
@@ -49,6 +50,23 @@ def main() -> None:
         path = ROOT / folder
         if not path.is_dir() or not any(item.is_file() for item in path.iterdir()):
             errors.append(f"missing or empty source-data folder: {folder}")
+
+    figure5 = ROOT / "source_data" / "figure5"
+    stale_figure5 = sorted(path.name for path in figure5.glob("43_*"))
+    if stale_figure5:
+        errors.append(f"stale Figure 5 source data remain: {', '.join(stale_figure5)}")
+
+    panel_b = figure5 / "71_figure5_panelB_marker_excluded_correlations.csv"
+    if panel_b.is_file():
+        with panel_b.open("r", encoding="utf-8-sig", newline="") as handle:
+            rows = list(csv.DictReader(handle))
+        if len(rows) != 8:
+            errors.append(f"Figure 5 panel B should contain 8 dataset-marker rows, found {len(rows)}")
+        coordinate_types = {row.get("coordinate_type", "") for row in rows}
+        if coordinate_types != {"fully_marker_excluded"}:
+            errors.append(f"unexpected Figure 5 coordinate types: {sorted(coordinate_types)}")
+        if any("marker_removed_from_injury_score" not in row for row in rows):
+            errors.append("Figure 5 panel B is missing marker-removal audit fields")
 
     for relative in REQUIRED_SCRIPTS:
         path = ROOT / relative

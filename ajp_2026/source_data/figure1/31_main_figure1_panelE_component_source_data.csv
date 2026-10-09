@@ -1,0 +1,64 @@
+﻿signature,label,metric,support_value,p_value
+candidate_DKD_TI_remodeling_no_SPP1_CD44,"Frozen 10-gene
+candidate","-rho
+(lower eGFR)",0.2268493557573586,0.0315461973859971
+candidate_DKD_TI_remodeling_no_SPP1_CD44,"Frozen 10-gene
+candidate","delta primary
+tubules",0.7886912436134349,0.0160956803792755
+candidate_DKD_TI_remodeling_no_SPP1_CD44,"Frozen 10-gene
+candidate",delta glomeruli,0.7987981635660435,0.0001487613852858
+component_injury_HAVCR1_LCN2_VCAM1,"Injury
+HAVCR1/LCN2/VCAM1","-rho
+(lower eGFR)",0.2568456926606104,0.0145360027544667
+component_injury_HAVCR1_LCN2_VCAM1,"Injury
+HAVCR1/LCN2/VCAM1","delta primary
+tubules",1.5105286733485372,0.0013838653775658
+component_injury_HAVCR1_LCN2_VCAM1,"Injury
+HAVCR1/LCN2/VCAM1",delta glomeruli,0.7910592142394803,0.0014264394974009
+component_CLU,CLU,"-rho
+(lower eGFR)",0.3247078774658817,0.0017934747132294
+component_CLU,CLU,"delta primary
+tubules",1.7478107693828695,0.0001949287040977
+component_CLU,CLU,delta glomeruli,1.303268144725304,0.002695065395455
+component_fibrosis_ECM,Fibrosis/ECM,"-rho
+(lower eGFR)",0.1803566798985313,0.0889286659212091
+component_fibrosis_ECM,Fibrosis/ECM,"delta primary
+tubules",0.6016404895573906,0.1379134594125095
+component_fibrosis_ECM,Fibrosis/ECM,delta glomeruli,0.842664703188357,4.220433910315944e-05
+component_inflammation,Inflammation,"-rho
+(lower eGFR)",0.0897667546459828,0.4001246772001686
+component_inflammation,Inflammation,"delta primary
+tubules",-0.3995231557618468,0.4887178731852695
+component_inflammation,Inflammation,delta glomeruli,0.4704385177316306,0.4390948286289583
+candidate_minus_injury,"Candidate
+minus injury","-rho
+(lower eGFR)",0.2071591148483086,0.050098698804656
+candidate_minus_injury,"Candidate
+minus injury","delta primary
+tubules",0.4793323451555339,0.1379134594125095
+candidate_minus_injury,"Candidate
+minus injury",delta glomeruli,0.8021148561345703,6.838354988933407e-05
+candidate_minus_CLU,"Candidate
+minus CLU","-rho
+(lower eGFR)",0.2125755774395104,0.0442692920913455
+candidate_minus_CLU,"Candidate
+minus CLU","delta primary
+tubules",0.6821224074168312,0.1062063206816
+candidate_minus_CLU,"Candidate
+minus CLU",delta glomeruli,0.7427459434372368,0.0003128565439739
+candidate_minus_fibrosis_ECM,"Candidate
+minus fibrosis/ECM","-rho
+(lower eGFR)",0.2349493545259645,0.0258092525087548
+candidate_minus_fibrosis_ECM,"Candidate
+minus fibrosis/ECM","delta primary
+tubules",0.9133917463174646,0.0091994226533424
+candidate_minus_fibrosis_ECM,"Candidate
+minus fibrosis/ECM",delta glomeruli,0.7695538038178344,0.0014264394974009
+candidate_minus_inflammation,"Candidate
+minus inflammation","-rho
+(lower eGFR)",0.2467042307877218,0.0190739923863961
+candidate_minus_inflammation,"Candidate
+minus inflammation","delta primary
+tubules",1.0857448434572554,0.0008688610598347
+candidate_minus_inflammation,"Candidate
+minus inflammation",delta glomeruli,0.8808880750246466,4.963776464793898e-05

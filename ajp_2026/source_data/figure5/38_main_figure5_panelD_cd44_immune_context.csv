@@ -1,0 +1,9 @@
+﻿panel,source,category,metric,value,p_value,note,display_label
+C,GSE131882,nan Myeloid,mean_CD44,0.7940439621298653,0.3333333333333333,Strong positive direction but small myeloid sample coverage; use as supportive evidence.,GSE131882 nan Myeloid CD44
+C,GSE211785,all_tech Mac,mean_CD44,0.1047528893921787,0.6837172011929115,"Macrophage CD44 is higher in DKD than control across technologies, but sample-level effect is modest; use as immune-side support rather than a standalone decisive result.",GSE211785 all_tech Mac CD44
+C,GSE211785,sc_rna_only Mac,mean_CD44,0.0517629492831402,1.0,Macrophage CD44 remains positive in SC_RNA-only sensitivity.,GSE211785 sc_rna_only Mac CD44
+C,GSE211785,all_tech CD16_Mono,mean_CD44,0.3250230941063634,0.0463222348435828,"CD16 monocyte CD44 is positive at sample level, but prior all-tech/scRNA robustness was weaker; use only as supportive/cautious evidence.",GSE211785 all_tech CD16_Mono CD44
+C,GSE211785,all_tech Neutrophil,mean_CD44,0.1683227444606401,0.3850895423996809,Neutrophil CD44 is directionally positive; supportive but not central to the manuscript story.,GSE211785 all_tech Neutrophil CD44
+C,GSE211785,all_tech cDC,mean_CD44,0.8056250643730146,0.0596693312972365,"cDC CD44 is positive but low-count; suitable for supplement, not the main human immune claim.",GSE211785 all_tech cDC CD44
+C,GSE211785,all_tech CD14_Mono,mean_CD44,-0.1032822300095317,0.831934304722909,CD14 monocyte CD44 is not positive at sample level; do not use CD14 monocytes as the human immune-side lead.,GSE211785 all_tech CD14_Mono CD44
+C,GSE211785,all_tech Mac,mean_myeloid_core,-0.171129471967776,0.5933082619794932,"Macrophage CD44 rises while the classical myeloid-core score does not; write as CD44-positive immune remodeling, not global macrophage activation.",GSE211785 all_tech Mac myeloid_core

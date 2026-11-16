@@ -1,0 +1,7 @@
+dataset,scale,n,ordinal_rho,ordinal_p,late_vs_control_delta,analysis,tissue,scale_label
+GSE303653_feline_cortex,control_referenced_z,20,0.7812821155030896,4.764717429604622e-5,1,exclude_published_QC_flags,Cortex,Control-ref. z
+GSE303653_feline_cortex,global_z,20,0.7932405152301777,3.011370144033817e-5,1,exclude_published_QC_flags,Cortex,Global z
+GSE303653_feline_cortex,within_sample_rank,20,0.6872093709833298,8.151111693498446e-4,0.8095238095238095,exclude_published_QC_flags,Cortex,Within-sample rank
+GSE303653_feline_medulla,control_referenced_z,17,0.6126998200740038,0.00892595046609392,0.8333333333333334,exclude_published_QC_flags,Medulla,Control-ref. z
+GSE303653_feline_medulla,global_z,17,0.6271008842210424,0.00705259879614368,0.9166666666666666,exclude_published_QC_flags,Medulla,Global z
+GSE303653_feline_medulla,within_sample_rank,17,0.5354577487398879,0.02675089079254812,0.6666666666666666,exclude_published_QC_flags,Medulla,Within-sample rank

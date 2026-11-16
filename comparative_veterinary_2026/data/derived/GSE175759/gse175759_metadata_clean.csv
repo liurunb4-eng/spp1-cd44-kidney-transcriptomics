@@ -1,0 +1,91 @@
+gsm,title,diagnosis,egfr_ckd_epi,technical_outlier,tissue,supplementary_file
+GSM5345902,IgAN_sample1,IgAN,76.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345902/suppl/GSM5345902_sample1.txt.gz
+GSM5345903,IgAN_sample2,IgAN,68.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345903/suppl/GSM5345903_sample2.txt.gz
+GSM5345904,IgAN_sample3,IgAN,70.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345904/suppl/GSM5345904_sample3.txt.gz
+GSM5345905,IgAN_sample4,IgAN,46.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345905/suppl/GSM5345905_sample4.txt.gz
+GSM5345906,IgAN_sample5,IgAN,63,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345906/suppl/GSM5345906_sample5.txt.gz
+GSM5345907,IgAN_sample6,IgAN,114.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345907/suppl/GSM5345907_sample6.txt.gz
+GSM5345908,IgAN_sample7,IgAN,77,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345908/suppl/GSM5345908_sample7.txt.gz
+GSM5345909,IgAN_sample8,IgAN,81.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345909/suppl/GSM5345909_sample8.txt.gz
+GSM5345910,IgAN_sample9,IgAN,70.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345910/suppl/GSM5345910_sample9.txt.gz
+GSM5345911,IgAN_sample10,IgAN,58.1,Outlier_excluded from main analysis,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345911/suppl/GSM5345911_sample10.txt.gz
+GSM5345912,IgAN_sample11,IgAN,67.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345912/suppl/GSM5345912_sample11.txt.gz
+GSM5345913,IgAN_sample12,IgAN,77.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345913/suppl/GSM5345913_sample12.txt.gz
+GSM5345914,IgAN_sample13,IgAN,64.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345914/suppl/GSM5345914_sample13.txt.gz
+GSM5345915,IgAN_sample14,IgAN,74.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345915/suppl/GSM5345915_sample14.txt.gz
+GSM5345916,IgAN_sample15,IgAN,68.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345916/suppl/GSM5345916_sample15.txt.gz
+GSM5345917,IgAN_sample16,IgAN,104.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345917/suppl/GSM5345917_sample16.txt.gz
+GSM5345918,IgAN_sample17,IgAN,85.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345918/suppl/GSM5345918_sample17.txt.gz
+GSM5345919,IgAN_sample18,IgAN,79.2,Outlier_excluded from main analysis,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345919/suppl/GSM5345919_sample18.txt.gz
+GSM5345920,IgAN_sample19,IgAN,76.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345920/suppl/GSM5345920_sample19.txt.gz
+GSM5345921,IgAN_sample20,IgAN,78.9,Outlier_excluded from main analysis,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345921/suppl/GSM5345921_sample20.txt.gz
+GSM5345922,IgAN_sample21,IgAN,75.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345922/suppl/GSM5345922_sample21.txt.gz
+GSM5345923,IgAN_sample22,IgAN,104.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345923/suppl/GSM5345923_sample22.txt.gz
+GSM5345924,IgAN_sample23,IgAN,84,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345924/suppl/GSM5345924_sample23.txt.gz
+GSM5345925,IgAN_sample24,IgAN,101.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345925/suppl/GSM5345925_sample24.txt.gz
+GSM5345926,IgAN_sample25,IgAN,128.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345926/suppl/GSM5345926_sample25.txt.gz
+GSM5345927,IgAN_sample26,IgAN,60,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345927/suppl/GSM5345927_sample26.txt.gz
+GSM5345928,IgAN_sample27,IgAN,112.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345928/suppl/GSM5345928_sample27.txt.gz
+GSM5345929,IgAN_sample28,IgAN,74.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345929/suppl/GSM5345929_sample28.txt.gz
+GSM5345930,IgAN_sample29,IgAN,88.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345930/suppl/GSM5345930_sample29.txt.gz
+GSM5345931,IgAN_sample30,IgAN,100.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345931/suppl/GSM5345931_sample30.txt.gz
+GSM5345932,IgAN_sample31,IgAN,97.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345932/suppl/GSM5345932_sample31.txt.gz
+GSM5345933,IgAN_sample32,IgAN,81.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345933/suppl/GSM5345933_sample32.txt.gz
+GSM5345934,IgAN_sample33,IgAN,93.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345934/suppl/GSM5345934_sample33.txt.gz
+GSM5345935,IgAN_sample34,IgAN,89.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345935/suppl/GSM5345935_sample34.txt.gz
+GSM5345936,IgAN_sample35,IgAN,118,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345936/suppl/GSM5345936_sample35.txt.gz
+GSM5345937,IgAN_sample36,IgAN,124,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345937/suppl/GSM5345937_sample36.txt.gz
+GSM5345938,IgAN_sample37,IgAN,102.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345938/suppl/GSM5345938_sample37.txt.gz
+GSM5345939,IgAN_sample38,IgAN,102.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345939/suppl/GSM5345939_sample38.txt.gz
+GSM5345940,IgAN_sample39,IgAN,88.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345940/suppl/GSM5345940_sample39.txt.gz
+GSM5345941,IgAN_sample40,IgAN,106.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345941/suppl/GSM5345941_sample40.txt.gz
+GSM5345942,IgAN_sample41,IgAN,104.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345942/suppl/GSM5345942_sample41.txt.gz
+GSM5345943,IgAN_sample42,IgAN,114.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345943/suppl/GSM5345943_sample42.txt.gz
+GSM5345944,IgAN_sample43,IgAN,133.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345944/suppl/GSM5345944_sample43.txt.gz
+GSM5345945,IgAN_sample44,IgAN,120.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345945/suppl/GSM5345945_sample44.txt.gz
+GSM5345946,IgAN_sample45,IgAN,132.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345946/suppl/GSM5345946_sample45.txt.gz
+GSM5345947,IgAN_sample46,IgAN,109.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345947/suppl/GSM5345947_sample46.txt.gz
+GSM5345948,Control_sample47,Control,60,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345948/suppl/GSM5345948_sample47.txt.gz
+GSM5345949,Control_sample48,Control,109,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345949/suppl/GSM5345949_sample48.txt.gz
+GSM5345950,Control_sample49,Control,113,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345950/suppl/GSM5345950_sample49.txt.gz
+GSM5345951,Control_sample50,Control,76,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345951/suppl/GSM5345951_sample50.txt.gz
+GSM5345952,Control_sample51,Control,86,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345952/suppl/GSM5345952_sample51.txt.gz
+GSM5345953,Control_sample52,Control,83,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345953/suppl/GSM5345953_sample52.txt.gz
+GSM5345954,Control_sample53,Control,97,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345954/suppl/GSM5345954_sample53.txt.gz
+GSM5345955,Control_sample54,Control,105,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345955/suppl/GSM5345955_sample54.txt.gz
+GSM5345956,Control_sample55,Control,93,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345956/suppl/GSM5345956_sample55.txt.gz
+GSM5345957,Control_sample56,Control,102,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345957/suppl/GSM5345957_sample56.txt.gz
+GSM5345958,Control_sample57,Control,101,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345958/suppl/GSM5345958_sample57.txt.gz
+GSM5345959,Control_sample58,Control,95,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345959/suppl/GSM5345959_sample58.txt.gz
+GSM5345960,Control_sample59,Control,109,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345960/suppl/GSM5345960_sample59.txt.gz
+GSM5345961,Control_sample60,Control,95,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345961/suppl/GSM5345961_sample60.txt.gz
+GSM5345962,Control_sample61,Control,123,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345962/suppl/GSM5345962_sample61.txt.gz
+GSM5345963,Control_sample62,Control,102,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345963/suppl/GSM5345963_sample62.txt.gz
+GSM5345964,Control_sample63,Control,111,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345964/suppl/GSM5345964_sample63.txt.gz
+GSM5345965,Control_sample64,Control,85,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345965/suppl/GSM5345965_sample64.txt.gz
+GSM5345966,Control_sample65,Control,87.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345966/suppl/GSM5345966_sample65.txt.gz
+GSM5345967,Control_sample66,Control,97.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345967/suppl/GSM5345967_sample66.txt.gz
+GSM5345968,Control_sample67,Control,90.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345968/suppl/GSM5345968_sample67.txt.gz
+GSM5345969,Control_sample68,Control,85.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345969/suppl/GSM5345969_sample68.txt.gz
+GSM5345970,Diabetic nephropathy_sample69,Diabetic nephropathy,57.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345970/suppl/GSM5345970_sample69.txt.gz
+GSM5345971,Diabetic nephropathy_sample70,Diabetic nephropathy,84.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345971/suppl/GSM5345971_sample70.txt.gz
+GSM5345972,Diabetic nephropathy_sample71,Diabetic nephropathy,99.6,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345972/suppl/GSM5345972_sample71.txt.gz
+GSM5345973,FSGS_sample72,FSGS,120,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345973/suppl/GSM5345973_sample72.txt.gz
+GSM5345974,FSGS_sample73,FSGS,40.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345974/suppl/GSM5345974_sample73.txt.gz
+GSM5345975,FSGS_sample74,FSGS,81.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345975/suppl/GSM5345975_sample74.txt.gz
+GSM5345976,Lupus nephritis_sample75,Lupus nephritis,139.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345976/suppl/GSM5345976_sample75.txt.gz
+GSM5345977,Lupus nephritis_sample76,Lupus nephritis,126.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345977/suppl/GSM5345977_sample76.txt.gz
+GSM5345978,Lupus nephritis_sample77,Lupus nephritis,126.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345978/suppl/GSM5345978_sample77.txt.gz
+GSM5345979,Membranous nephropathy_sample78,Membranous nephropathy,83.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345979/suppl/GSM5345979_sample78.txt.gz
+GSM5345980,Membranous nephropathy_sample79,Membranous nephropathy,95.3,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345980/suppl/GSM5345980_sample79.txt.gz
+GSM5345981,Membranous nephropathy_sample80,Membranous nephropathy,115.8,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345981/suppl/GSM5345981_sample80.txt.gz
+GSM5345982,Membranous nephropathy_sample81,Membranous nephropathy,99.7,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345982/suppl/GSM5345982_sample81.txt.gz
+GSM5345983,minimal change disease_sample82,minimal change disease,78.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345983/suppl/GSM5345983_sample82.txt.gz
+GSM5345984,minimal change disease_sample83,minimal change disease,61.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345984/suppl/GSM5345984_sample83.txt.gz
+GSM5345985,minimal change disease_sample84,minimal change disease,98.5,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345985/suppl/GSM5345985_sample84.txt.gz
+GSM5345986,minimal change disease_sample85,minimal change disease,135.4,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345986/suppl/GSM5345986_sample85.txt.gz
+GSM5345987,minimal change disease_sample86,minimal change disease,106.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345987/suppl/GSM5345987_sample86.txt.gz
+GSM5345988,minimal change disease_sample87,minimal change disease,126.2,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345988/suppl/GSM5345988_sample87.txt.gz
+GSM5345989,minimal change disease_sample88,minimal change disease,68.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345989/suppl/GSM5345989_sample88.txt.gz
+GSM5345990,minimal change disease_sample89,minimal change disease,56.1,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345990/suppl/GSM5345990_sample89.txt.gz
+GSM5345991,minimal change disease_sample90,minimal change disease,48.9,No,Kidney tubulointerstitium,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5345nnn/GSM5345991/suppl/GSM5345991_sample90.txt.gz

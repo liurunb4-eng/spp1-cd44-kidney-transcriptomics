@@ -1,0 +1,8 @@
+try(Sys.setlocale("LC_ALL", "Chinese (Simplified)_China.utf8"), silent = TRUE)
+args <- commandArgs(trailingOnly = FALSE)
+this_file <- sub("^--file=", "", args[grep("^--file=", args)][1])
+source(file.path(dirname(normalizePath(this_file, winslash = "/")), "..", "R", "00_config.R"))
+assert_data_contracts()
+stopifnot(all(GENE_SETS$common9 %in% GENE_SETS$full10))
+stopifnot(!"LCN2" %in% GENE_SETS$common9)
+cat("PASS: input files, gene sets, and output isolation satisfy the data contract.\n")

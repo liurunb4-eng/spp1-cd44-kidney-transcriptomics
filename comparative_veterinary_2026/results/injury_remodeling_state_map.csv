@@ -1,0 +1,10 @@
+dataset,display_label,species,context,injury_delta,remodeling_delta,injury_ci_low,injury_ci_high,remodeling_ci_low,remodeling_ci_high,injury_p,remodeling_p,quadrant
+GSE30122_DKD_tubules,Human DKD tubules,Human,disease,0.6666666666666666,0.3333333333333333,0.26666666666666666,0.9666666666666668,-0.11666666666666668,0.7666666666666667,0.0091994226533424,0.1985156897903962,joint induction
+GSE137570_progression,Human CKD progression,Human,progression,0.8888888888888888,0.75,0.6111111111111112,1,0.3333333333333333,1,0.00243673480898901,0.01077341392501124,joint induction
+GSE216376_adenine,Rat adenine injury,Rat,disease,1,1,1,1,1,1,0.0808555983700523,0.0808555983700523,joint induction
+GSE216376_UUO,Rat UUO,Rat,disease,1,1,1,1,1,1,0.0808555983700523,0.0808555983700523,joint induction
+GSE183841_DOCA,Rat DOCA-salt,Rat,disease,1,1,1,1,1,1,0.03038282197657749,0.03038282197657749,joint induction
+GSE183841_finerenone,Rat finerenone,Rat,intervention,-1,-1,-1,-1,-1,-1,0.03038282197657749,0.03038282197657749,joint attenuation
+GSE183841_spironolactone,Rat spironolactone,Rat,intervention,0,-0.25,-1,0.75,-1,0.625,1,0.6650055421020291,injury-predominant
+GSE303653_feline_cortex,Cat natural CKD cortex,Cat,disease,0.9523809523809524,1,0.8071428571428573,1,1,1,0.0053409925250672,0.00340523582129476,joint induction
+GSE303653_feline_medulla,Cat natural CKD medulla,Cat,disease,1,0.8,1,1,0.3333333333333333,1,0.00811311726556577,0.03576376659097789,joint induction

@@ -1,0 +1,9 @@
+dplyr
+tidyr
+readr
+readxl
+GEOquery
+ggplot2
+patchwork
+ggrepel
+scales

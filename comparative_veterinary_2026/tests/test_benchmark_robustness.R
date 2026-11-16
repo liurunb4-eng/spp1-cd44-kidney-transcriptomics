@@ -1,0 +1,20 @@
+try(Sys.setlocale("LC_ALL", "Chinese (Simplified)_China.utf8"), silent = TRUE)
+.args <- commandArgs(trailingOnly = FALSE)
+.this <- sub("^--file=", "", .args[grep("^--file=", .args)][1])
+root <- normalizePath(file.path(dirname(.this), ".."), winslash = "/")
+suppressPackageStartupMessages({library(readr); library(dplyr)})
+
+effects <- read_csv(file.path(root, "results", "benchmark_endpoint_effects.csv"), show_col_types = FALSE)
+consistency <- read_csv(file.path(root, "results", "feature_consistency_summary.csv"), show_col_types = FALSE)
+feline <- read_csv(file.path(root, "results", "feline_scaling_qc_sensitivity.csv"), show_col_types = FALSE)
+loo <- read_csv(file.path(root, "results", "feline_leave_one_out.csv"), show_col_types = FALSE)
+
+stopifnot(n_distinct(effects$dataset) == 10L)
+stopifnot(all(is.finite(effects$raw_effect)))
+stopifnot(all(abs(effects$raw_effect) <= 1 + 1e-12))
+stopifnot("common9" %in% consistency$score_name)
+stopifnot(n_distinct(feline$dataset) == 2L, n_distinct(feline$scale) == 3L)
+stopifnot(all(c("all_processed_samples", "exclude_published_QC_flags") %in% feline$analysis))
+stopifnot(nrow(loo) == 117L, all(is.finite(loo$ordinal_rho)))
+
+cat("PASS: benchmark, scaling, QC-exclusion, and leave-one-out outputs satisfy expected contracts.\n")

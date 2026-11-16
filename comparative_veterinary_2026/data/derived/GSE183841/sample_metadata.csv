@@ -1,0 +1,17 @@
+﻿sample_id,sample_title,treatment,normalized_group
+RK10.3,Control4_BulkRNAseq,Control,control
+RK11.3,Control1_BulkRNAseq,Control,control
+RK12.2,Control2_BulkRNAseq,Control,control
+RK12.3,Control3_BulkRNAseq,Control,control
+RK7.1,DOCA1_BulkRNAseq,DOCA,doca
+RK7.2,DOCA2_BulkRNAseq,DOCA,doca
+RK8.1,DOCA4_BulkRNAseq,DOCA,doca
+RK8.2,DOCA3_BulkRNAseq,DOCA,doca
+RK2.1,Finerenone1_BulkRNAseq,DOCA + Finerenone,finerenone
+RK2.2,Finerenone3_BulkRNAseq,DOCA + Finerenone,finerenone
+RK3.1,Finerenone2_BulkRNAseq,DOCA + Finerenone,finerenone
+RK3.2,Finerenone4_BulkRNAseq,DOCA + Finerenone,finerenone
+RK4.1,Spironolactone1_BulkRNAseq,DOCA + Spironolactone,spironolactone
+RK4.2,Spironolactone2_BulkRNAseq,DOCA + Spironolactone,spironolactone
+RK6.1,Spironolactone3_BulkRNAseq,DOCA + Spironolactone,spironolactone
+RK6.2,Spironolactone4_BulkRNAseq,DOCA + Spironolactone,spironolactone
